@@ -10,13 +10,13 @@ variable "ssh_key_public" {
   #Replace this with the location of you public key .pub
   default = "C:\\Users\\bli\\.ssh\\id_rsa.pub"
 }
-
+ 
 variable "ssh_key_private" {
   type    = string
   #Replace this with the location of you private key
   default = "C:\\Users\\bli\\.ssh\\id_rsa"
 }
-
+ 
 variable "public_subnet_one" {}
 variable "public_subnet_two" {}
 

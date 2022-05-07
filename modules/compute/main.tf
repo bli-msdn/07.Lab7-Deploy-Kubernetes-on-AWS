@@ -3,7 +3,7 @@
 provider "aws" {
   region = var.region
 }
-
+ 
 #Get Linux AMI ID using SSM Parameter endpoint
 #==============================================
 data "aws_ssm_parameter" "webserver-ami" {
